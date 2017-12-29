@@ -1,0 +1,18 @@
+
+
+http://blog.csdn.net/zhengzhengyi/article/details/51136180
+
+环境：
+1.visual studio 2015
+2.NET框架版本：V4.5
+3.NuGet.Server v2.10.2
+4.NuGet Package Explorer 3.13
+
+或者
+1.NET框架版本：V4.0
+2.NUGET.SERVER包版本：1.7.2
+
+
+添加程序包源
+	本地虚拟机  
+	http://192.168.30.86:8080/nuget
