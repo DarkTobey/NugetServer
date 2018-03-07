@@ -1,0 +1,32 @@
+
+官方说明
+	https://docs.microsoft.com/zh-cn/nuget/
+	
+
+一.打包
+	
+	nuget  pack  【项目名称】.csproj -Version 【版本号】 -Prop Configuration=Release
+		参数说明 
+			-Version 生成的包版本号，不加时，将和 AssemblyInfo.cs  的版本号一致。
+			-Prop Configuration=Release 发布Release版。
+		
+		示例
+			nuget  pack  Tobey.Log.csproj 
+		
+		
+		
+二.发布
+
+	nuget push 【项目名称】.nupkg -source  http://106.14.186.95:8001/nuget  123456
+		参数说明 
+			-source 要上传的nuget server的地址 以及 上传密码
+			
+		示例
+			nuget push Tobey.Log.1.0.0.nupkg -source  http://106.14.186.95:8001/nuget  123456
+
+	
+
+
+
+	
+	
